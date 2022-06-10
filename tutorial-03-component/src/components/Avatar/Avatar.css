@@ -1,0 +1,17 @@
+.avatar {
+    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+    /*background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');*/
+    /* make a square container */
+    width: 60px;
+    height: 60px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background: top center;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/03/53/11/00/1000_F_353110097_nbpmfn9iHlxef4EDIhXB1tdTD0lcWhG9.jpg") ;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+}
